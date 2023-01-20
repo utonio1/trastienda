@@ -18,10 +18,10 @@ sudo apt-get install \
     lsb-release
 ```
 ```sh
-sudo mkdir -p /etc/apt/keyrings'
+sudo mkdir -p /etc/apt/keyrings
 ```
 ```sh
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg'
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 ```
 ```sh
 echo \
