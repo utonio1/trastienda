@@ -60,7 +60,7 @@ docker cp trastienda-php:/var/www/html/ ./trastienda && tar -czf trastienda.tar.
 _copiar el archivo trastienda.tar.gz y pegar en el servidor nuevo_
 
 ```sh
-rm -r trastienda
+rm -r trastienda.tar.gz
 ```
 
 ### Instalar los servicios
@@ -74,7 +74,7 @@ tar -xzf trastienda.tar.gz trastienda && cd ./trastienda
 docker compose -f ./docker-compose.production.yml up --build -d
 ```
 ```sh
-cd ../ && rm -r trastienda
+cd ../ && rm -r trastienda && rm -r trastienda.tar.gz
 ```
 
 ### Backup de la base de datos
