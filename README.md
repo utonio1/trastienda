@@ -57,7 +57,7 @@ _ingresar en la terminal del servidor de donde se va a copiar_
 ```sh
 docker cp trastienda-php:/var/www/html/ ./trastienda && tar -czf trastienda.tar.gz trastienda/ && rm -r trastienda
 ```
-_copiar el archivo trastienda.tar.gz y pegar en el servidor nuevo_
+_Con WinSCP copiar el archivo trastienda.tar.gz y pegar en el servidor nuevo_
 
 ```sh
 rm -r trastienda.tar.gz
