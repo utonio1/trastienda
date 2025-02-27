@@ -34,6 +34,8 @@ desde la terminal corremos el sigte comando
 
 ```bash
 docker run -it -w /var/www/html --volumes-from trastienda-php --name trastienda-bash bash:latest bash
+apk add php
+apk add composer
 ```
 
 Con esto vamos a tener creados los servicios de la trastienda(postgres, php y nginx). Luego de esto y dentro del contenedor de php correr el comando
