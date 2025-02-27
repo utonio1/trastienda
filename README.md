@@ -23,7 +23,7 @@ DB_USER="postgres"
 DB_PASSWORD="postgres"
 DB_PORT="5432"
 DB_DATABASE="trastienda"
-DB_HOST="localhost"
+DB_HOST="trastienda-postgres"
 ```
 
 Luego corremos el comando sigte.
