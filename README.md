@@ -30,8 +30,14 @@ Luego corremos el comando sigte.
 ```bash
 docker compose -f ./docker-compose.production.yml up --build -d
 ```
+desde la terminal corremos el sigte comando
+
+```bash
+docker run -it -w /var/www/html --volumes-from trastienda-php --name trastienda-bash bash:latest bash
+```
 
 Con esto vamos a tener creados los servicios de la trastienda(postgres, php y nginx). Luego de esto y dentro del contenedor de php correr el comando
+
 ```bash
 composer install
 ```
