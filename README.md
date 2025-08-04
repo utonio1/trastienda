@@ -12,7 +12,7 @@ Se puede seguir los pasos de instalacion segun su sistema operativo en los sigte
 
 ## Trastienda
 
-Para instalar la trastienda tenemos que clonar el proyecto (solicitar token de aceso).
+Para instalar la trastienda tenemos que clonar el proyecto (solicitar token de acceso).
 ```bash
 git clone https://github.com/utonio1/trastienda_lavienesa.git && cd ./trastienda_lavienesa
 ```
@@ -45,3 +45,24 @@ composer install
 ```
 
 Por ultimo y con la ayuda de Pgadmin podemos conectarnos a la nueva base de datos para realizar el restore de la base de datos
+
+
+# Actualizaciones de trastienda la vienesa
+
+Para mantener el proyecto actualizado desde la terminal:
+
+1. Navegá hasta la raíz del proyecto, por ej:
+```bash
+cd /ruta/a/tastienda_lavienesa
+```
+
+2. Ejecutá el pull de los últimos cambios:
+
+```bash
+git pull
+```
+
+3. Al realizar el pull, se solicitará un nombre identificador (quién actualizó) y un token de acceso personal.
+- Si no tenés el token, solicitá uno al equipo técnico.
+- El token tiene una validez de 24hs.
+
